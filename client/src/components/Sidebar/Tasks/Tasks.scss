@@ -1,0 +1,53 @@
+@import "../../../assets/colors";
+
+.tasks-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    .upcoming-container,
+    .today-container,
+    .calendar-container {
+        margin: 10px 0 0 10px;
+        cursor: pointer;
+        .upcoming-title,
+        .today-title,
+        .calendar-title,
+        .sticky-wall-title {
+            margin-left: 15px;
+        }
+    }
+    .upcoming-title,
+    .today-title,
+    .calendar-title,
+    .sticky-wall-title {
+        margin-left: 15px;
+    }
+    .sticky-wall-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5px;
+        background-color: #ebebeb;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        .title-and-icon-container {
+            display: flex;
+            align-items: center;
+        }
+        .number-of-todos-container {
+            background-color: white;
+            border-radius: 5px;
+            width: 30px;
+            text-align: center;
+        }
+    }
+    .tasks-title {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .upcoming-container {
+        display: flex;
+        align-items: center;
+    }
+}

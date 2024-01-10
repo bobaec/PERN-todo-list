@@ -1,0 +1,52 @@
+@import "../../assets/colors";
+
+@mixin todo-square {
+    flex: 1 0 30%;
+    min-width: 250px;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    min-height: 300px;
+}
+
+.list-todos-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid $icon-gray;
+    border-radius: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: 100%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    .single-todos-container {
+        @include todo-square;
+        background-color: $icon-yellow;
+        .todo-title {
+            margin-bottom: 10px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .todo-description {
+            display: -webkit-box;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 6;
+            -webkit-box-orient: vertical;
+        }
+    }
+    .add-todos-container {
+        @include todo-square;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.list-todos-container::-webkit-scrollbar {
+    display: none;
+}

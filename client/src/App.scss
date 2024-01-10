@@ -1,0 +1,69 @@
+@import "./assets/_colors.scss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: $background-green;
+    width: 80%;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.website-container {
+    margin: 50px 0;
+    .todo-container {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        min-height: 800px;
+        max-width: 1500px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        .main-content-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            flex: 1 0 67%;
+            margin-left: 20px;
+            max-height: 800px;
+            .sticky-wall-title {
+                font-size: 30px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.gray {
+    color: $icon-gray !important;
+}
+.gray-background {
+    background-color: $icon-gray !important;
+}
+.red {
+    color: $icon-red !important;
+}
+.red-background {
+    background-color: $icon-red !important;
+}
+.blue {
+    color: $icon-blue !important;
+}
+.blue-background {
+    background-color: $icon-blue !important;
+}
+.yellow {
+    color: $icon-yellow !important;
+}
+.yellow-background {
+    background-color: $icon-yellow !important;
+}
+.orange {
+    color: $icon-orange !important;
+}
+.orange-background {
+    background-color: $icon-orange !important;
+}
