@@ -13,7 +13,7 @@ Prerequisites:
 - npm
 - Postgresql: https://www.postgresql.org/download/
 
-There is an example video shown at the bottom of this README if you just want to functionality.
+There is an example video shown at the bottom of this README if you just want to see the functionality.
 
 How to run:
 
@@ -52,9 +52,9 @@ After adding a few more the sticky wall will look like this:
 You can also edit and delete todos by clicking onto the todo itself and an Edit Modal should open up:
 ![image](https://github.com/bobaec/PERN-todo-list/assets/22423987/d62e86f9-155b-4fb0-b435-f16b25cd4467)
 
-You can also use the search function in the side bar, as well as filter by list type.
+You can also use the search function in the side bar, as well as filter by list type.<br/>
 ![image](https://github.com/bobaec/PERN-todo-list/assets/22423987/66ac3b46-40f7-4ce5-af14-ae3231dbaa97)
 
-Example video:
+Example video of functionality:
 ![chrome_b1EOF6f8T5](https://github.com/bobaec/PERN-todo-list/assets/22423987/b80d8980-09d5-4f86-b9b1-e3e55b7a3a07)
 
