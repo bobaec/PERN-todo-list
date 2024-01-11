@@ -9,6 +9,8 @@ Stack:<br/>
 <br/>
 <b>React & React Bootstrap && SASS</b>: Front end
 
+Original git repo for older commits (couldn't figure out how to keep commits and go back one directory to include both /client and /server via github so I just made a new one): https://github.com/bobaec/sticky-wall
+
 Prerequisites: 
 - npm
 - Postgresql: https://www.postgresql.org/download/
